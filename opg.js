@@ -27,7 +27,9 @@ function test(){
 
     // opg 4
     var library=[{author:'bill gates',title:'the road ahead',readingStatus:true},{author:'Steve jobs',title:'walter isaacson',readingStatus:true},{author:'Suzanne collins',title:'Mockingjay: the final book of the hunger games',readingStatus:false}] 
-
+    console.log(library[0].author +"  "+library[0].title+"  "+library[0].readingStatus);
+     console.log(library[1].author +"  "+library[1].title+"  "+library[1].readingStatus);
+     console.log(library[2].author +"  "+library[2].title+"  "+library[2].readingStatus);  
     // opg 5
   
     function genererandomnummer(minimumnummer,maximumnummer){
