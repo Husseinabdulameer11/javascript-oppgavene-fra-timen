@@ -1,8 +1,18 @@
 //opg 1
 function sum(nummerene=new Array(x,y,z)){
-    return nummerene[0]+nummerene[1]+nummerene[2]
+    let sum = 0;
+    for(i = 0;i<nummerene.length;i++){
+         if(isNaN(nummerene[i])){
+           sum +=0;
+         }else{
+            sum+=nummerene[i];
+         } 
+     }
+   return sum;
 }
-sum([1,2,3]);
+console.log(sum([1,2,3]));
+console.log(sum([100,-200,3]));
+console.log(sum([1,2,'a',3]));
 
 // opg 2
 function test(){
